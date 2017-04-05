@@ -1,0 +1,11 @@
+[MASTER]
+unsafe-load-any-extension=y
+
+[MESSAGES CONTROL]
+
+# C0111 = Missing docstring
+# C0301 = Line too long
+# C0103 = Invalid constant/variable/class name
+# W0108 = Lambda may not be necessary
+
+disable=C0111,C0301,C0103,W0108
